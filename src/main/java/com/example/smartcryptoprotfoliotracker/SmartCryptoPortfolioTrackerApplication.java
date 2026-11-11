@@ -1,13 +1,13 @@
-package com.example.smartCryptoProtfolioTracker;
+package com.example.smartcryptoprotfoliotracker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SmartCryptoProtfolioTrackerApplication {
+public class SmartCryptoPortfolioTrackerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SmartCryptoProtfolioTrackerApplication.class, args);
+        SpringApplication.run(SmartCryptoPortfolioTrackerApplication.class, args);
     }
 
 }

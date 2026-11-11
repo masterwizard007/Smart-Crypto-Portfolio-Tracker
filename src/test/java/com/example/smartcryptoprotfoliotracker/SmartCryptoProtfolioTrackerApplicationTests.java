@@ -1,4 +1,4 @@
-package com.example.smartCryptoProtfolioTracker;
+package com.example.smartcryptoprotfoliotracker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
