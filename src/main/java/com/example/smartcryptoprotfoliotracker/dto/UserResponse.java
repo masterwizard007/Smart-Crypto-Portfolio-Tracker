@@ -1,4 +1,4 @@
 package com.example.smartcryptoprotfoliotracker.dto;
 
-public record userDto() {
+public record UserResponse() {
 }

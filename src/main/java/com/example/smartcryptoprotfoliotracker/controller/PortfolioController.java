@@ -1,5 +1,6 @@
 package com.example.smartcryptoprotfoliotracker.controller;
 
+import com.example.smartcryptoprotfoliotracker.dto.UserResponse;
 import com.example.smartcryptoprotfoliotracker.entity.User;
 import com.example.smartcryptoprotfoliotracker.service.UserService;
 import org.springframework.web.bind.annotation.*;
@@ -17,7 +18,7 @@ public class PortfolioController {
     }
 
     @GetMapping("/user")
-    private List<User> getAllUsers(){
+    private List<UserResponse> getAllUsers(){
         return userService.getAll();
     }
 
