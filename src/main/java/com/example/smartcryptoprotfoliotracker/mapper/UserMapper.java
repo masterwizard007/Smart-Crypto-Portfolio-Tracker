@@ -6,6 +6,8 @@ import com.example.smartcryptoprotfoliotracker.entity.User;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
+import java.util.List;
+
 @Mapper(componentModel = "spring")
 public interface UserMapper {
 
@@ -13,4 +15,6 @@ public interface UserMapper {
 
     @Mapping(target = "userId", ignore = true)
     User toEntity(UserRequest request);
+
+    List<UserResponse> toResponseList(List<User> userList);
 }
